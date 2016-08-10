@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -21,24 +22,10 @@
       var size = width + ',' + height;
       
       var locations = [        
-        /*** EDIT THIS SECTION ***
- 
-        Put the links to your viz here, make sure to include the following url parameters
-        &:embed=yes&:toolbar=no&:format=png&<filter/parameter>=<value>
-        to make sure it auto sizes add this to the url as well &:size="+size+"
-        Example:
-      
-        {"src": "https://public.tableausoftware.com/views/Animated-Map/map?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Year=2010"},            
-        ** with add'l years **
-        {"src": "https://public.tableausoftware.com/views/Animated-Map/map?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Year=2011"},
-        {"src": "https://public.tableausoftware.com/views/Animated-Map/map?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Year=2012"},
-        {"src": "https://public.tableausoftware.com/views/Animated-Map/map?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Year=2013"},
-        */
-        {"src": "//tableau.corp.web/#/site/Gale/views/Book1/Sheet9?:iid=2&:embed=yes&:toolbar=no&:format=png&YEAR=2011"},
-        {"src": "//tableau.corp.web/#/site/Gale/views/Book1/Sheet9?:iid=2&:embed=yes&:toolbar=no&:format=png&YEAR=2012"},
-        {"src": "//tableau.corp.web/#/site/Gale/views/Book1/Sheet9?:iid=2&:embed=yes&:toolbar=no&:format=png&YEAR=2013"},
-        {"src": "//tableau.corp.web/#/site/Gale/views/Book1/Sheet9?:iid=2&:embed=yes&:toolbar=no&:format=png&YEAR=2014"},
-        
+       {"src": "http://tableau.corp.web/#/site/Gale/views/Book1/Sheet9?:iid=2&:embed=yes&:toolbar=no&:format=png&YEAR=2011"},
+        {"src": "http://tableau.corp.web/#/site/Gale/views/Book1/Sheet9?:iid=2&:embed=yes&:toolbar=no&:format=png&YEAR=2012"},
+        {"src": "http://tableau.corp.web/#/site/Gale/views/Book1/Sheet9?:iid=2&:embed=yes&:toolbar=no&:format=png&YEAR=2013"},
+        {"src": "http://tableau.corp.web/#/site/Gale/views/Book1/Sheet9?:iid=2&:embed=yes&:toolbar=no&:format=png&YEAR=2014"},
                 ]
             
       $("#myGallery").attr('width',width);
